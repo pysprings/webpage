@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+        {% block head %}
+        <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+        <meta charset="utf-8" />
+        {% if FEED_ALL_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+        {% endif %}
+        {% if FEED_ALL_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+        {% endif %}
+        {% if FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+        {% endif %}
+        {% if FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM|format(category) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+        {% endif %}
+        {% if CATEGORY_FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS|format(category) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+        {% endif %}
+        {% if TAG_FEED_ATOM %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM|format(tag) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+        {% endif %}
+        {% if TAG_FEED_RSS %}
+        <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS|format(tag) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+        {% endif %}
+
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/app-foundation.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/app.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/text.css">
+        <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.css">
+        {% endblock head %}
+</head>
+
+<body id="index" class="home">
+    <div class="pysprings-container">
+        <div id="preheader" class="pysprings-preheader">
+            <div class="row">
+                <div id="logo" class="pysprings-header">
+                </div>
+                <div class="menu-container">
+                    <span class="menu">
+                        <ul>
+                            <li class='active'><a class="active" href="#">Home</a></li>
+                            <li><a href="/wiki">Wiki</a></li>
+                            <li><a href="http://meetup.pysprings.org">Meetup</a></li>
+                            <li><a href="/mailman/listinfo">Mailing List</a></li>
+                        </ul>
+                    </span>
+                </div>
+            </div>
+                {% block navigation %}
+                <span class="sub-menu">
+                    <div class="row">
+                        <ul>
+                            <li><a {% if page_name|truncate(5) == 'index' or article %} class="active"{% endif %} href="{{ SITEURL }}/index.html">News</a></li>
+                            <li><a {% if page_name|truncate(8) == 'archives' %} class="active"{% endif %} href="{{ SITEURL }}/archives.html">Archives</a></li>
+                            {% if DISPLAY_PAGES_ON_MENU %}
+                                {% for p in PAGES %}
+                                    <li><a {% if p == page %} class="active"{% endif %} href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                                {% endfor %}
+                            {% else %}
+                                {% for cat, null in categories %}
+                                    <li{% if cat == category %} class="active"{% endif %}><a href="{{ SITEURL }}/{{ cat.url }}">{{ cat }}</a></li>
+                                {% endfor %}
+                            {% endif %}
+                        </ul>
+                    </div>
+                </span>
+                {% endblock %}
+        </div>
+
+        <div class="row pysprings-body">
+
+            <div class="three columns" id="main-sidebar">
+                <div class="pysprings-tags">
+                    {% block tags %}
+                    <h2>Tags</h2>
+                    <ul>
+                    {% for tag, articles in tags %}
+                        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endblock %}
+                </div> <!-- end pysprings-tags -->
+
+                <div class="pysprings-social">
+                    {% block social %}
+                    <h2>Contact</h2>
+                    <ul>
+                    {% for link, name in SOCIAL %}
+                    <li><a href="{{ link }}"><i class="icon-4x icon-{{ name }}"></i></a></li>
+                    {% endfor %}
+                    </ul>
+                    {% endblock %}
+                </div> <!-- end pysprings-social -->
+                {% block sponsors %}
+                    <h2>Sponsors</h2>
+                    <ul>
+                    {% for link, name in SPONSORS %}
+                    <li><a href="{{ link }}"><i class="icon-4x icon-{{ name }}"></i></a></li>
+                    {% endfor %}
+                    </ul>
+                {% endblock %}
+            </div>
+
+            <div class="nine columns" id="main-content">
+            {% block content %}
+            {% endblock %}
+            </div>
+        </div>
+
+    </div>
+        <div class="row">
+            <div id="prefooter" class="pysprings-prefooter">
+                <div class="eight columns centered pysprings-footer">
+                    Unless otherwise noted, the content of this site is licenced under a
+                    <a rel="license"
+                    href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
+                    Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
+                <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
+                    <img alt="Creative Commons License" style="border-width:0"
+                    src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+                </div>
+                <div class="eight columns centered pysprings-footer">
+                    Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
+                    which takes great advantage of <a href="http://python.org">Python</a>.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

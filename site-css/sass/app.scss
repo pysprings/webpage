@@ -1,0 +1,205 @@
+@import "compass/css3";
+@import "_settings";
+
+/* Artfully masterminded by ZURB  */
+
+.pysprings-preheader{
+  @include box-sizing(content-box);
+  //width: 100% !important;
+  position: relative;
+  background-color: white;
+}
+
+
+.pysprings-header{
+  display: block;
+  text-indent: -9999px;
+  background: url(../img/pysprings-logo.png) 20px 100% no-repeat;
+  height: 93px;
+  width: 375px;
+  overflow: hidden;
+  text-decoration: none;
+  padding: 85px 0px 10px 0px;
+  display: block;
+}
+
+.pysprings-tags {
+  font-family: "PermanentMarkerRegular", "sans-serif";
+  color: $secondaryColor;
+}
+
+.pysprings-tags ul {
+  list-style-type: none;
+}
+
+.pysprings-tags ul li {
+  //display: inline;
+  display: inline-table;
+  padding: 0px 10px 0px 0px;
+}
+
+.pysprings-tags ul li a {
+  color: $secondaryColor;
+  font-size: $baseFontSize * 1.5;
+}
+
+.pysprings-social ul {
+  list-style-type: none;
+}
+
+.pysprings-social ul li {
+  display: inline-table;
+}
+
+body{
+  //background: lighten($bannerDark, 10%);
+  background: white;
+}
+
+.pysprings-body{
+  //background: white;
+  //padding: 0px 0px 0px $menuLeftPadding;
+}
+
+.pysprings-footer{
+  font-size: 10px;
+}
+
+.menu-container {
+  padding: 0px 0px 10px $menuLeftPadding;
+  height: $menuHeight + 20;
+  bottom: 0;
+}
+
+/* menu */
+.menu {
+  font-family: "neuropolregular", "sans-serif";
+  padding: 10px 0px 0px 0px;
+  margin: 0;
+  display: block;
+  text-align: left;
+  height: $menuHeight + 10;
+  //position: absolute;
+  bottom: 30px;
+
+}
+.menu ul {
+  background: none;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+  display: inline-table;
+  border-radius: $menuRadius;
+}
+.menu ul li    {
+  float: left;
+  background: none;
+  margin-right: 1px;
+  display: inline;
+}
+.menu li a:link, .menu li a:visited {
+  font-size: $menuHeight;
+  display: block;
+  color: $menuMainColor;
+  padding: $menuHeight/10 $menuHeight*2/3;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.menu a.active:link, a.active:active, a.active:visited {
+  color: #fff !important;
+  text-shadow: none;
+  background: $mainColor;
+  border-top-left-radius: $menuRadius;
+  border-top-right-radius: $menuRadius;
+  font-weight: bold;
+}
+.menu li a:hover    {
+  cursor: pointer;
+  color: #fff;
+  text-shadow: none;
+  border-top-left-radius: $menuRadius;
+  border-top-right-radius: $menuRadius;
+  background: $menuMainColor;
+}
+
+/* sub-menu */
+.sub-menu-container {
+  padding: 0px 0px 10px $menuLeftPadding;
+  height: $menuHeight + 20;
+  bottom: 0;
+  width: 100% !important;
+  position: relative;
+}
+.sub-menu {
+  font-family: "PermanentMarkerRegular", "sans-serif";
+  padding: 0px 0px 20px $subMenuLeftPadding;
+  margin: 0;
+  display: block;
+  text-align: left;
+  height: $subMenuHeight + 20;
+  //position: absolute;
+  //bottom: 30px;
+  background: $mainColor;
+  width: 100% !important;
+  position: relative;
+
+}
+
+.sub-menu ul {
+  background: none;
+  padding: 0;
+  margin: 0 auto;
+  float: none;
+  display: inline-table;
+  border-radius: $menuRadius;
+}
+
+.sub-menu ul li    {
+  float: left;
+  background: none;
+  margin-right: 1px;
+  display: inline;
+}
+
+.sub-menu li a:link, .sub-menu li a:visited {
+  font-size: $subMenuHeight;
+  display: block;
+  color: $secondaryColor;
+  padding: $subMenuHeight/10 $subMenuHeight*2/3;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.sub-menu a.active:link, a.active:active, a.active:visited {
+  color: #fff !important;
+  text-shadow: none;
+  background: $mainColor;
+  //font-weight: bold;
+}
+
+.sub-menu li a:hover    {
+  cursor: pointer;
+  color: lighten($secondaryColor, 20%);
+  text-shadow: none;
+}
+
+.article-header {
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.article-header h1, h3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.article-header h4, h6, abbr{
+  font-family: $bodyFontFamily;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+// Trying to make the lists behave and stay within divs
+ul {
+  list-style-position: inside;
+}

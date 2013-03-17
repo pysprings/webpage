@@ -1,0 +1,130 @@
+@import "foundation/common/ratios";
+
+// Settings file containing Foundation defaults
+
+// Grid Settings
+
+$rowWidth: 1152px;
+//$rowWidth: 1024px;
+// $columnGutter: 30px;
+// $totalColumns: 12;
+// $mobileTotalColumns: 4;
+
+// generic colors
+$darkGrey: #4c4c4c;
+$grey: #8c8c8c;
+$lightGrey: #dedede;
+
+// pysprings colors
+$pyspringsOrange: #faa524;
+$pyspringsGreen: #759236;
+$pyspringsDarkGreen: #0f1b0d;
+
+$bannerDark: #8f8f8f;
+$bannerLight: #fa6f23;
+
+// Colors Settings
+//$mainColor: darken($pyspringsGreen, 10%);
+$mainColor: $pyspringsGreen;
+$secondaryColor: $pyspringsOrange;
+// $alertColor: #c60f13;
+// $successColor: #5da423;
+// $txtColor: #222;
+// $highlightColor: #ffff99;
+// $black: #000;
+// $white: #fff;
+// $shinyEdge: rgba(#fff, .5);
+// $darkEdge: rgba(#000, .2);
+
+// menu bar colors
+$menuMainColor: $pyspringsGreen;
+$menuSecondaryColor: darken($lightGrey, 10%);
+
+// Typography Settings
+$headerFontFamily: "neuropolregular", "sans-serif";
+$headerFontWeight: normal;
+// $headerFontColor: #222;
+$bodyFontFamily: "Cantarell", "sans-serif";
+// $bodyFontWeight: normal;
+// $bodyFontColor: #222;
+
+// Button Settings
+
+// $buttonRadius: 3px;
+// $btnBase: 10px;
+
+// $tinyBtnBase: $btnBase - 5;
+// $smallBtnBase: $btnBase - 3;
+// $largeBtnBase: $btnBase + 5;
+
+// Form Settings
+
+// $formSpacing: 12px;
+
+// Tab Settings
+
+// $tabHeight: 40px;
+
+// Menu Bar Settings
+$menuHeight: 25px;
+$menuRadius: 10px;
+$subMenuHeight: 20px;
+$subMenuRadius: 10px;
+
+$menuLeftPadding: 10px;
+$subMenuLeftPadding: 10px;
+
+// search bar settings
+$searchRightPadding: 50px;
+
+// Modular Scale
+// $ratio: $golden;
+$baseFontSize: 14px;
+// $importantModNum: 44px;
+
+// Tooltip Settings
+// $hasTipBorderBottom: dotted 1px #ccc;
+// $hasTipFontWeight: bold;
+// $hasTipFontColor: #333;
+// $hasTipBorderBottomHover: dotted 1px darken($mainColor, 20%);
+// $hasTipFontColorHover: $mainColor;
+// $tooltipBackgroundColor: #000;
+// $tooltipBackgroundOpacity: 0.85;
+// $tooltipFontSize: 12;
+// $tooltipFontWeight: bold;
+// $tooltipFontColor: #fff;
+// $tapToCloseFontSize: 10;
+// $tapToCloseFontWeight: normal;
+// $tapToCloseFontColor: #888;
+// $tooltipFontSizeScreenSmall: 14;
+// $tooltipBackgroundOpacityScreenSmall: 0.85;
+
+// for foundation_icons_general
+$fontFileName: "fonts/general_foundicons";
+$fontName: "GeneralFoundicons";
+$classPrefix: "foundicon-";
+
+@mixin i-class($name,$pua) {
+  .#{$classPrefix}#{$name}:before { 
+    content: "\f#{$pua}";
+  }
+}
+
+@mixin ie-class($name,$pua) {
+  .#{$classPrefix}#{$name} { 
+    *zoom: expression( this.runtimeStyle['zoom'] = "1", this.innerHTML = "&#xf#{$pua};"); 
+  }
+}
+
+@mixin face {
+  @font-face { 
+    font-family: $fontName;
+    src: url('#{$fontFileName}.eot');
+    src: url('#{$fontFileName}.eot?#iefix') format('embedded-opentype'),
+         url('#{$fontFileName}.woff') format('woff'),
+         url('#{$fontFileName}.ttf') format('truetype'),
+         url('#{$fontFileName}.svg##{$fontName}') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

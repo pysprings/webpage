@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+{% block content_title %}
+{% endblock %}
+
+{% for article in articles_page.object_list %}
+<div class="row">
+        <div class="article-header">
+            <h2><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></h2>
+            <h4></h4>
+            <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+            {% if article.author %}<h6>By <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></h6>{% endif %}
+        </div>
+        <div class="panel radius"> {{ article.summary }} </div>
+    </div>
+{% endfor %}
+{% include 'pagination.html' %}
+{% endblock content %}

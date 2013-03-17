@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+<section id="content" class="body">
+    <div class="article-header">
+        <h1><a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title}}">{{ article.title }}</a></h1>
+        {% import 'translations.html' as translations with context %}
+        {{ translations.translations_for(article) }}
+        <abbr class="published" title="{{ article.date.isoformat() }}"> {{ article.locale_date }} </abbr>
+        {% if article.author %}<h6>By <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a></h6>{% endif %}
+    </div>
+    <div class="panel radius"> {{ article.content }} </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = '{{ DISQUS_SITENAME }}'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+    
+{#
+  <header>
+    <h2 class="entry-title">
+      <a href="{{ article.url }}" rel="bookmark"
+         title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h2>
+ {% import 'translations.html' as translations with context %}
+ {{ translations.translations_for(article) }}
+  </header>
+  <footer class="post-info">
+    <abbr class="published" title="{{ article.date.isoformat() }}">
+      {{ article.locale_date }}
+    </abbr>
+    {% if article.author %}
+    <address class="vcard author">
+      By <a class="url fn" href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a>
+    </address>
+    {% endif %}
+  </footer><!-- /.post-info -->
+  <div class="entry-content">
+    {{ article.content }}
+  </div><!-- /.entry-content -->
+  </section>
+#}
+{% endblock %}

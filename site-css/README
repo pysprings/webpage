@@ -1,0 +1,4 @@
+Make sure that you have zurb-foundation < 4.0 installed. Yes, it uses ruby
+but just deal with it for now!
+
+gem install zurb-foundation -v 3.2.5
