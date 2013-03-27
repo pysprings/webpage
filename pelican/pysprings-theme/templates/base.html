@@ -76,7 +76,7 @@
 
         <div class="row pysprings-body">
 
-            <div class="three columns" id="main-sidebar">
+            <div class="three columns pysprings-sidebar" id="main-sidebar">
                 <div class="pysprings-tags">
                     {% block tags %}
                     <h2>Tags</h2>
@@ -98,14 +98,17 @@
                     </ul>
                     {% endblock %}
                 </div> <!-- end pysprings-social -->
-                {% block sponsors %}
-                    <h2>Sponsors</h2>
-                    <ul>
-                    {% for link, name in SPONSORS %}
-                    <li><a href="{{ link }}"><i class="icon-4x icon-{{ name }}"></i></a></li>
-                    {% endfor %}
-                    </ul>
-                {% endblock %}
+
+                <div class="pysprings-sponsor">
+                    {% block sponsors %}
+                        <h2>Sponsors</h2>
+                        <ul>
+                        {% for link, name in SPONSORS %}
+                        <li><a href="{{ link }}"><img src="{{ SITEURL }}/theme/img/{{ name }}-logo.png"></a></li>
+                        {% endfor %}
+                        </ul>
+                    {% endblock %}
+                </div> <!-- end pysprings-sponsor -->
             </div>
 
             <div class="nine columns" id="main-content">
@@ -123,8 +126,7 @@
                     href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
                     Creative Commons Attribution-ShareAlike 3.0 Unported License</a>.
                 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.en_US">
-                    <img alt="Creative Commons License" style="border-width:0"
-                    src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a>
+                    </a>
                 </div>
                 <div class="eight columns centered pysprings-footer">
                     Proudly powered by <a href="http://getpelican.com/">Pelican</a>,
