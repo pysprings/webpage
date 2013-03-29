@@ -5,7 +5,8 @@ New Web Site
 :tags: news
 
 As some of you may be noticing - we have a new web site! Ryan and I have been
-working on the initial Pelican site for a while now and it's finally deployed!
+working on the initial `Pelican <http://docs.getpelican.com/>`_ site for a while
+now and it's finally deployed!
 
 What you see here is a first step, though and there are always things we could
 add or improve. If you have ideas, feel free to bring them up - we have our own
@@ -20,3 +21,9 @@ Some of the next steps are going to be:
 I'm excited about the new site - the plan is to have everything from the blog
 posts and css to the configuration management tools available publicly, so expect
 more posts and probably some presentations about it in the near future.
+
+If you're interested in poking at the main site, it is `available on on bitbucket
+<https://bitbucket.org/tflink/pysprings-website>`_. Patches and collaboration
+are very much encouraged - if you have questions, feel free to ask them on the
+`mailing list <http://pysprings.org/mailman/listinfo/members>`_. I may move
+everything to github once the site stabilizes but for now, it'll stay on bitbucket.
