@@ -26,7 +26,7 @@ SOCIAL = (('https://github.com/pysprings', 'github'),
         ('https://twitter.com/pysprings', 'twitter'),
         ('mailto:pysprings@pysprings.org', 'envelope'),)
 
-SPONSORS = (('http://enclavecoop.com/', 'enclave'),)
+SPONSORS = (('Meeting Space Provided By:', 'http://enclavecoop.com/', 'enclave'),)
 
 DISQUS_SITENAME = 'pysprings'
 

@@ -77,9 +77,10 @@ body {
 /* line 76, ../../sass/pysprings.scss */
 .pysprings-footer {
   font-size: 10px;
+  text-align: center;
 }
 
-/* line 80, ../../sass/pysprings.scss */
+/* line 81, ../../sass/pysprings.scss */
 .menu-container {
   padding: 0px 0px 10px 10px;
   height: 45px;
@@ -87,7 +88,7 @@ body {
 }
 
 /* menu */
-/* line 87, ../../sass/pysprings.scss */
+/* line 88, ../../sass/pysprings.scss */
 .menu {
   font-family: "neuropolregular", "sans-serif";
   padding: 10px 0px 0px 0px;
@@ -98,7 +99,7 @@ body {
   bottom: 30px;
 }
 
-/* line 98, ../../sass/pysprings.scss */
+/* line 99, ../../sass/pysprings.scss */
 .menu ul {
   background: none;
   padding: 0;
@@ -108,7 +109,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 106, ../../sass/pysprings.scss */
+/* line 107, ../../sass/pysprings.scss */
 .menu ul li {
   float: left;
   background: none;
@@ -116,7 +117,7 @@ body {
   display: inline;
 }
 
-/* line 112, ../../sass/pysprings.scss */
+/* line 113, ../../sass/pysprings.scss */
 .menu li a:link, .menu li a:visited {
   font-size: 25px;
   display: block;
@@ -126,7 +127,7 @@ body {
   text-transform: capitalize;
 }
 
-/* line 120, ../../sass/pysprings.scss */
+/* line 121, ../../sass/pysprings.scss */
 .menu a.active:link, a.active:active, a.active:visited {
   color: #fff !important;
   text-shadow: none;
@@ -136,7 +137,7 @@ body {
   font-weight: bold;
 }
 
-/* line 128, ../../sass/pysprings.scss */
+/* line 129, ../../sass/pysprings.scss */
 .menu li a:hover {
   cursor: pointer;
   color: #fff;
@@ -147,7 +148,7 @@ body {
 }
 
 /* sub-menu */
-/* line 138, ../../sass/pysprings.scss */
+/* line 139, ../../sass/pysprings.scss */
 .sub-menu-container {
   padding: 0px 0px 10px 10px;
   height: 45px;
@@ -156,7 +157,7 @@ body {
   position: relative;
 }
 
-/* line 145, ../../sass/pysprings.scss */
+/* line 146, ../../sass/pysprings.scss */
 .sub-menu {
   font-family: "PermanentMarkerRegular", "sans-serif";
   padding: 0px 0px 20px 10px;
@@ -169,7 +170,7 @@ body {
   position: relative;
 }
 
-/* line 160, ../../sass/pysprings.scss */
+/* line 161, ../../sass/pysprings.scss */
 .sub-menu ul {
   background: none;
   padding: 0;
@@ -179,7 +180,7 @@ body {
   border-radius: 10px;
 }
 
-/* line 169, ../../sass/pysprings.scss */
+/* line 170, ../../sass/pysprings.scss */
 .sub-menu ul li {
   float: left;
   background: none;
@@ -187,7 +188,7 @@ body {
   display: inline;
 }
 
-/* line 176, ../../sass/pysprings.scss */
+/* line 177, ../../sass/pysprings.scss */
 .sub-menu li a:link, .sub-menu li a:visited {
   font-size: 20px;
   display: block;
@@ -197,33 +198,33 @@ body {
   text-transform: capitalize;
 }
 
-/* line 185, ../../sass/pysprings.scss */
+/* line 186, ../../sass/pysprings.scss */
 .sub-menu a.active:link, a.active:active, a.active:visited {
   color: #fff !important;
   text-shadow: none;
   background: #759236;
 }
 
-/* line 192, ../../sass/pysprings.scss */
+/* line 193, ../../sass/pysprings.scss */
 .sub-menu li a:hover {
   cursor: pointer;
   color: #fcce88;
   text-shadow: none;
 }
 
-/* line 198, ../../sass/pysprings.scss */
+/* line 199, ../../sass/pysprings.scss */
 .article-header {
   margin-top: 14px;
   margin-bottom: 14px;
 }
 
-/* line 203, ../../sass/pysprings.scss */
+/* line 204, ../../sass/pysprings.scss */
 .article-header h1, h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 207, ../../sass/pysprings.scss */
+/* line 208, ../../sass/pysprings.scss */
 .article-header h4, h6, abbr {
   font-family: "Cantarell", "sans-serif";
   font-weight: normal;
@@ -231,7 +232,7 @@ body {
   margin-bottom: 5px;
 }
 
-/* line 215, ../../sass/pysprings.scss */
+/* line 216, ../../sass/pysprings.scss */
 ul {
   list-style-position: inside;
 }

@@ -123,7 +123,7 @@ figure {
 /* The Grid ---------------------- */
 /* line 3, ../../../../../../../usr/local/share/gems/gems/zurb-foundation-3.2.5/scss/foundation/components/_grid.scss */
 .row {
-  width: 1152px;
+  width: 1024px;
   max-width: 100%;
   min-width: 768px;
   margin: 0 auto;
