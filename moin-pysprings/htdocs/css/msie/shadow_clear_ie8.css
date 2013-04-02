@@ -1,0 +1,2 @@
+/* Fix for 1px shorter gotobar */
+ul.gotobar { width: 940px; }

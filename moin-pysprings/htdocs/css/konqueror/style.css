@@ -1,0 +1,18 @@
+ul.gotobar {
+    width: 940px;
+    max-width: none;
+}
+
+ul#pagetrail {
+    width: 920px;
+    max-width: none;
+}
+
+div.header h1 {
+    min-height: 23px;
+}
+
+form.actionsmenu {
+    margin-top: -2px;
+}
+

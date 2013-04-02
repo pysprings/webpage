@@ -1,0 +1,31 @@
+/*
+    Projection stylesheet based on Modernized theme
+    Copyright - 2003 Juergen Hermann
+                2009 Renato Silva
+*/
+
+html { line-height: 1.8em; }
+div.wrapper, #page { padding: 0.8em 1.4em; }
+body, b, em, a, span, div, p, td { font-size: 18pt; }
+#interwiki, #pagelocation, #pageinfo { display: none; }
+a { text-decoration: none; }
+
+sup, sub { font-size: 12pt; }
+tt, pre { font-size: 16pt; }
+
+h1#pagelocation,
+h1 { font-size: 26pt; }
+h2 { font-size: 22pt; }
+h3 { font-size: 20pt; }
+h4 { font-size: 18pt; }
+h5 { font-size: 16pt; }
+h6 { font-size: 14pt; }
+
+h1#pagelocation {
+    display: inline;
+}
+
+#content table.navigation a,
+#content table.navigation td {
+	font-size: 12pt;
+}

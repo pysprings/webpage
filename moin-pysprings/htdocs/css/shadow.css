@@ -1,0 +1,36 @@
+body {
+    width: 960px;
+    margin: 0px auto;
+    border: none;
+    padding-left: 22px;
+    background: transparent url("../img/bg/shadow/body_shadow.png") left repeat-y;
+}
+
+div.content {
+    padding-right: 5em;
+}
+
+div.header, div.footer {
+    width: 916px;
+}
+
+div.footer {
+    margin-left: 22px;
+}
+
+form.search, ul#username {
+    right: 44px;
+}
+
+ul#pagetrail {
+    max-width: 876px;
+}
+
+ul.gotobar {
+    max-width: 896px;
+}
+
+ul#timings {
+    color: #999;
+    margin-left: 10px;
+}

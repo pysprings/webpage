@@ -1,0 +1,89 @@
+# Spanish translation for moin-solenoid
+# Copyright (c) 2010 Rosetta Contributors and Canonical Ltd 2010
+# This file is distributed under the same license as the moin-solenoid package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: moin-solenoid\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-05-03 13:12+0000\n"
+"PO-Revision-Date: 2012-09-26 06:22+0000\n"
+"Last-Translator: Adolfo Jayme Barrientos <fitoschido@gmail.com>\n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-12-16 04:16+0000\n"
+"X-Generator: Launchpad (build 16372)\n"
+
+msgid "All Actions"
+msgstr "Todas las acciones"
+
+#, python-format
+msgid "Actions for %s"
+msgstr "Acciones para %s"
+
+msgid "History"
+msgstr "Histórico"
+
+msgid "Locked"
+msgstr "Bloqueado"
+
+msgid "Attach File"
+msgstr "Adjuntar archivo"
+
+msgid "Render As Docbook"
+msgstr "Randerizar como DocBook"
+
+msgid "Spell Check"
+msgstr "Corrector ortográfico"
+
+msgid "Edit Text"
+msgstr "Editar texto"
+
+msgid "View Raw Text"
+msgstr "Ver texto sin formato"
+
+msgid "Attention"
+msgstr "Atención"
+
+msgid ""
+"You are using an outdated version of Internet Explorer which is not "
+"supported by this site. Please update your browser."
+msgstr ""
+"Estás usando una versión antigua de Internet Explorer que no está soportada "
+"por este sitio. Por favor, actualice su navegador."
+
+msgid "Add quicklink"
+msgstr "Añadir enlace rápido"
+
+msgid "Add/Manage files"
+msgstr "Añadir / gestionar archivos"
+
+msgid "Delete quicklink"
+msgstr "Eliminar enlaces rápidos"
+
+msgid "Activate"
+msgstr "Activar"
+
+msgid "Clear look"
+msgstr "Apariencia clara"
+
+msgid "Deactivate"
+msgstr "Desactivar"
+
+msgid "Full screen mode"
+msgstr "Modo a pantalla completa"
+
+msgid "Shadows for box mode"
+msgstr "Sombras para el modo de caja"
+
+msgid "Theme preferences"
+msgstr "Preferencias del tema"
+
+msgid "Theme preferences saved!"
+msgstr "Se guardaron las preferencias del tema."
+
+msgid "User preferences for %s theme:"
+msgstr "Preferencias de usuario para el tema %s:"

@@ -1,0 +1,31 @@
+/* Width was too short */
+div.wrapper { width: 80%; }
+div.wrapper.no-sidebar { width: 97%; }
+
+
+/* Paragraphs were too short */
+#content p { max-width: none; }
+
+
+/* Tables were too short */
+table { width: 98%; }
+
+
+/* Image width inside table cells was incorrect */
+#content td img { max-width: none; }
+
+
+/* Avoid too large table in AdvancedSearch macro */
+#content table.advancedsearch { max-width: 650px; }
+
+
+/* Avoid wrapping of items in TableOfContents macro */
+div.table-of-contents  { white-space: nowrap; }
+
+
+/* Fix for horizontal overflow */
+ul.gotobar { width: 939px; }
+
+
+/* Gotobar was a bit shorter */
+ul.gotobar { padding: 0em 0.7em; }

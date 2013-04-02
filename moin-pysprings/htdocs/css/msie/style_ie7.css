@@ -1,0 +1,66 @@
+/* Width was too short */
+div.wrapper { width: 80%; }
+div.wrapper.no-sidebar { width: 97%; }
+
+
+/* Paragraphs were too short */
+#content p { max-width: none; }
+
+
+/* Tables were too short */
+table { width: 98%; }
+
+
+/* Image width inside table cells was incorrect */
+#content td img { max-width: none; }
+
+
+/* Was not showing search area */
+form.search { top: 0px; }
+a.logo { float: none; width: auto; }
+
+
+/* Height for buttons */
+#titlesearch, #fullsearch, input.button, input[type="submit"] { height: 22px; }
+
+
+/* Hide vertical bar on overflow */
+#content { overflow-y: hidden; }
+
+
+/* Fill blank space bellow page title */
+div.header h1 { padding-bottom: 0.5em; }
+
+
+/* Page content was too close to the top */
+div.content { padding-top: 0.8em; }
+
+
+/* Make bullets visible and fix numbers position in ul/ol lists */
+#content li, #content ul, #content ol { max-width: none; }
+
+
+/* Content of comment and colored box was too close to the bottom */
+div.comment, div.red, div.orange, div.yellow, div.green, div.blue, div.solid, div.dashed, div.dotted {
+    padding-bottom: 1em;
+}
+
+
+/* Multi-lined gotobar was looking a bit weird */
+ul.gotobar, ul.gotobar li, ul.gotobar li a { height: 25px; }
+
+
+/* Decrease height of editbar for a better look */
+h1 { line-height: 1.15; }
+
+
+/* Avoid too large table and display text boxes entirey in AdvancedSearch macro */
+#content table.advancedsearch { width: 650px; }
+#content table.advancedsearch td { width: 98%; }
+#content table.advancedsearch td.searchfor { width: 35%; }
+
+/* Decrease margin of horizontal lines in sidebar */
+div.sidebar hr {
+    margin-bottom: 0em;
+    margin-top: 0.75em;
+}

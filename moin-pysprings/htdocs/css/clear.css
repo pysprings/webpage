@@ -1,0 +1,70 @@
+html {
+     background: #9bc3d5 url("../img/bg/clear/body_clear2.gif") repeat-x center top;
+}
+
+body {
+    background: #fff url("../img/bg/body_clear.gif") repeat-x center bottom;
+    border: 1px solid #b5cad8;
+}
+
+div.header {
+    background: #fff url("../img/bg/clear2.gif") repeat-x center top;
+}
+
+div.wrapper, html {
+    color: #707070;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #888;
+}
+
+a {
+    color: #17a;
+}
+
+a:visited {
+    color: #158;
+}
+
+a:hover {
+    color: #f06000;
+}
+
+ul.gotobar {
+    border-style: solid;
+    border-color: #b5cad8;
+    border-width: 1px 0px;
+}
+
+ul.gotobar, ul.gotobar li a {
+    background: #bbd9ee url("../img/bg/clear/clear6.gif") repeat center top;
+    color: #606060;
+}
+
+ul.gotobar li a {
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+
+ul.gotobar li a:hover {
+    background: #d8e8fd url("../img/bg/clear/clear7.gif") repeat-x center top;
+    border-style: solid;
+    border-color: #b5cad8;
+    border-width: 0px 1px;
+    color: #606060;
+}
+
+.diff-added span {
+    background-color: #e8f6ff;
+    color: #19c;
+}
+
+.diff-removed span {
+    background-color: #ffefef;
+    color: #f77;
+}
+
+ul#timings {
+    color: #999;
+}

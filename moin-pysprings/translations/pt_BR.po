@@ -1,0 +1,86 @@
+#
+# Solenoid Theme - Brazilian Portuguese translation
+# Copyright 2009, 2010 Renato Silva
+#
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Renato Silva\n"
+"X-Direction: ltr\n"
+"X-Language: Português do Brasil\n"
+"X-Language-in-English: Brazilian Portuguese\n"
+"X-HasWikiMarkup: True\n"
+
+msgid "All Actions"
+msgstr "Todas As Ações"
+
+#, python-format
+msgid "Actions for %s"
+msgstr "Ações para %s"
+
+msgid "History"
+msgstr "Histórico"
+
+msgid "Locked"
+msgstr "Travado"
+
+msgid "Attach File"
+msgstr "Anexar Arquivo"
+
+msgid "Render As Docbook"
+msgstr "Renderizar como Docbook"
+
+msgid "Spell Check"
+msgstr "Verificar Ortografia"
+
+msgid "Edit Text"
+msgstr "Editar"
+
+msgid "View Raw Text"
+msgstr "Ver o Texto Puro"
+
+msgid "Attention"
+msgstr "Atenção"
+
+msgid ""
+"You are using an outdated version of Internet Explorer "
+"which is not supported by this site. Please update your browser."
+msgstr ""
+"Você está usando uma versão ultrapassada do Internet Explorer "
+"que não é suportada por este site. Por favor atualize seu navegador."
+
+msgid "Add quicklink"
+msgstr "Adicionar link rápido"
+
+msgid "Add/Manage files"
+msgstr "Adicionar/Generenciar arquivos"
+
+msgid "Delete quicklink"
+msgstr "Deletar link rápido"
+
+msgid "Activate"
+msgstr "Ativar"
+
+msgid "Clear look"
+msgstr "Tom claro"
+
+msgid "Deactivate"
+msgstr "Desativar"
+
+msgid "Full screen mode"
+msgstr "Tela cheia"
+
+msgid "Shadows for box mode"
+msgstr "Sombras"
+
+msgid "Theme preferences"
+msgstr "Preferências do tema"
+
+msgid "Theme preferences saved!"
+msgstr "Preferências do tema salvas!"
+
+msgid "User preferences for %s theme:"
+msgstr "Preferências de usuário para o tema %s:"

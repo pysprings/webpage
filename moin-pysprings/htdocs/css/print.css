@@ -1,0 +1,30 @@
+div.header, div.footer, div.sidebar, ul#timings, div#interwiki, div.wrapper table.navigation {
+    display: none;
+}
+
+div.wrapper, div.wrapper.no-sidebar, div.content {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+html, body {
+    background: none;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    min-height: 0;
+    border: 0;
+}
+
+a {
+    text-decoration: underline;
+}
+
+#content {
+    overflow-x: visible;
+    margin-top: 0.8em;
+    line-height: normal;
+}

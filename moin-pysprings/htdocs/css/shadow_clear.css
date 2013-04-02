@@ -1,0 +1,16 @@
+body {
+    width: 1004px;
+    background: transparent url("../img/bg/shadow/body_shadow_clear.png") left repeat-y;
+}
+
+div.header, div.footer {
+    width: 960px;
+}
+
+ul#pagetrail {
+    max-width: 920px;
+}
+
+ul.gotobar {
+    max-width: 940px;
+}

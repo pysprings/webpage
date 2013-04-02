@@ -1,0 +1,44 @@
+html {
+    height: 100%;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    min-height: 100%;
+    width: 100%;
+    border-width: 0px;
+}
+
+div.footer {
+    width: 100%;
+}
+
+div.wrapper {
+    padding-bottom: 16em;
+    margin-bottom: 0px;
+    min-height: 0px;
+    width: auto;
+}
+
+div.sidebar div#sidebar,
+div.sidebar div[id="SideBar.sidebar"] {
+    min-height: 320px;
+}
+
+ul.gotobar,
+ul#pagetrail {
+    display: block;
+    width: auto;
+    max-width: 100%;
+}
+
+ul#pagetrail li {
+    float: none;
+}
+
+ul.gotobar,
+ul.gotobar li,
+ul.gotobar li a {
+    height: 25px;
+}

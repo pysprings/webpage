@@ -1,0 +1,97 @@
+2012.12.16
+
+    Better behavior
+    {*}  No bug -  New look and functionality for !RecentChanges.
+    {*}  No bug -  New installation script for Moin 1.8 and 1.9.
+    {*}  521586 - Theme preferences by user now a separate preferences page.
+    (./) 526340 - Omit the sidebar for users missing a read permission.
+    (./) No bug - Support for `page_credits` configuration, `solenoid_footer_note` abandoned.
+    (./) No bug - New configuration `solenoid_cms_mode` for omitting some interface elements from non logged in users.
+    (./) No bug - All actions action sorted in the current language.
+
+    Better look
+    (./) 510010 - Style for print and projection media types: look of direct printing like in the print action.
+    (./) 526345 - Support for text alignment in wiki parser. 
+    (./) 521528 - Fixed look of `show_timings` configuration.
+    (./) 493953 - Icon displayed for missing attachments.
+    (./) 521521 - Fixed arrangement of non-link elements in editbar.
+    (./) 521741 - Fixed too small font in notification preferences page.
+    (./) 526046 - All actions action hidden from the more actions menu.
+    (./) No bug - Sidebar adjustments: word breaking, better bold font, and new arrangement for horizontal lines.
+    (./) No bug - Equal width for diff columns.
+    (./) No bug - Bold style for definition terms.
+    (./) No bug - Wrapping for teletype texts.
+    (./) No bug - New attachment icon for !TitleIndex macro.
+    (./) No bug - Fixed some content overflows in box mode and print action.
+    (./) No bug - Slightly new sidebar background.
+    (./) No bug - New hover effect for buttons, now using a bit darker background.
+    (./) No bug - Hover effect for links to missing pages.
+
+    Better crossbrowsing
+    (./) 497248 - IE7/8: fix for correctly applying the width specified in embedded image attachments.
+    (./) 532503 - Opera 10: fixed page footer not being displayed for short pages in full screen mode.
+    (./) 464156 - Konqueror 4: fixed gotobar and pagetrail overflow, blank area between editbar and pagetrail, and misaligned actions menu.
+    (./) No bug - Gotobar page links added via `navi_bar` configuration now omitted for users missing a read permission.
+
+    Other improvements
+    (./) 496663 - Fixed internal server error in theme activation with logged in users.
+    (./) 517253 - Skip file existence check for custom styles when custom dir is missing, and for unexpected IE styles.
+    (./) No bug - All actions action renamed from `PageActions.py` to `allactions.py`, not sharing the name with Mandarin anymore.
+    (./) No bug - New configuration `solenoid_theme_credit` to show a theme credit in the page footer.
+    (./) No bug - Fixed error in !RecentChanges macro when `show_names` is disabled.
+    (./) No bug - Spanish translation.
+
+
+2009.12.5
+
+    Better behavior
+    {*}  467265 - Moin 1.9 compatibility.
+    {*}  433862 - Theme preferences by user: clear look, shadow effect and full screen mode.
+    {*}  453881 - Page location as title in print action if the page does not start with a heading.
+    {*}  454792 - Drop-down list for page actions in editbar.
+    (./) 451492 - Configurable editbar.
+    (./) 436831 - Comments toggling in editbar.
+    (./) 441310 - Page subscription in editbar.
+    (./) 454755 - Page discussion in editbar.
+    (./) 440970 - Quick link in editbar.
+    (./) 452547 - Projection style for slide shows.
+    (./) 449938 - Multi-lined gotobar for box mode.
+    (./) 451276 - Support for show_interwiki configuration.
+    (./) 451278 - Support for empty logo_string configuration.
+    (./) 442175 - Stylesheets declaration only for existing css files.
+
+    Better look
+    {*} 449933 - Better content arrangement for page trail.
+    {*} 456357 - Style for admonitions, including customizable color and border.
+    {*} No bug - New look for comments, colored text blocks, navigation and pagination widgets, TableOfContents, and AdvancedSearch.
+    {*} No bug - Improved appearance of code area and message box.
+
+    Better crossbrowsing
+    (./) 445095 - IE7: fixed hidden bullets and numbers position in ul/ol lists.
+    (./) No bug - IE7/8, Opera 9/10: fixed button style being applied for checkboxes.
+    (./) No bug - IE8: fixed unnecessary vertical scroll bar in sidebar when using the full screen mode.
+    (./) No bug - FF3.5: fixed bottom margin in full screen mode with dark look.
+    (./) No bug - FF3.5: fixed horizontal scroll bar in full screen mode with clear look.
+    (./) No bug - Warning when using IE versions older than 7.
+
+    Other improvements
+    (./) 453890 - Fixed page location shown as list in print action.
+    (./) 444848 - Fixed page location not shown as link when wikiname_add_spaces is enabled.
+    (./) No bug - Padding for comment and colored text blocks even when they have no border, and new condensed class for removing it.
+    (./) No bug - Subpages checked by default when renaming or deleting pages.
+    (./) No bug - Right and bottom margin adjustment for page content.
+    (./) No bug - Removed non-default question mark smiley.
+    (./) No bug - Hover effect for visited links.
+    (./) No bug - Fixed url for email icon.
+
+
+2009.8.18
+
+    (./) Fixed empty, unused space when SideBar does not exist.
+    (./) IE7 fix: increased space between top bars and page content.
+    (./) Fixed custom dir location in readme file.
+
+
+2009.8.12
+
+    Initial release, everything was new here :)

@@ -1,0 +1,220 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+<meta name="edit_on_doubleclick" content="/">
+<meta name="robots" content="index,follow">
+
+<title>Home - MoinMoin DesktopEdition</title>
+<script type="text/javascript" src="/moin_static195/common/js/common.js"></script>
+<script type="text/javascript"><!--
+function add_gui_editor_links() {
+    // Add gui editor link after the text editor link
+
+    // If the variable is not set or browser is not compatible, exit
+    try {gui_editor_link_href}
+    catch (e) {
+        //alert("add_gui_editor_links: gui_editor_link_href not here");
+        return
+    }
+    if (can_use_gui_editor() == false){
+        //alert("add_gui_editor_links: can't use gui_editor");
+        return;
+    }
+    var all = document.getElementsByName('texteditlink');
+    for (i = 0; i < all.length; i++) {
+        var textEditorLink = all[i];
+        // Create a a link
+        var guiEditorLink = document.createElement('a');
+        guiEditorLink.href = gui_editor_link_href;
+        guiEditorLink.className = "edit";
+        var text = document.createTextNode(gui_editor_link_text);
+        guiEditorLink.appendChild(text);
+        // Insert in the editbar
+        var editbar = textEditorLink.parentNode
+        editbar.insertBefore(guiEditorLink, textEditorLink);
+    }
+}
+--></script>
+
+<script type="text/javascript">
+<!-- // GUI edit link and i18n
+var gui_editor_link_href = "/Home?action=edit&editor=gui";
+var gui_editor_link_text = "Edit (GUI)";
+//-->
+</script>
+
+<!-- <link rel="stylesheet" type="text/css" media="all" href="css/app-foundation.css"> -->
+<link rel="stylesheet" type="text/css" media="all" href="css/text.css">
+<link rel="stylesheet" type="text/css" media="all" href="css/style.css">
+<link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+<link rel="stylesheet" type="text/css" media="projection" href="css/print.css">
+<link rel="stylesheet" type="text/css" media="projection" href="css/projection.css">
+<link rel="alternate" title="MoinMoin DesktopEdition Recent Changes" href="/Home?action=rss_rc&amp;unique=1&amp;ddiffs=1" type="application/rss+xml">
+<link rel="alternate" type="application/wiki" title="Edit" href="/Home?action=edit">
+
+<link rel="Start" href="/Home">
+<link rel="Alternate" title="Wiki Markup" href="/Home?action=raw">
+<link rel="Alternate" media="print" title="Print View" href="/Home?action=print">
+<link rel="Search" href="/FindPage">
+<link rel="Index" href="/TitleIndex">
+<link rel="Glossary" href="/WordIndex">
+<link rel="Help" href="/HelpOnFormatting">
+</head>
+
+<body  lang="en" dir="ltr">
+
+    <div class="header">
+        <div class="logobar"
+            <a class="logo" href="/Home"><img src="img/pysprings-logo.png" alt="PySprings Logo"></a>
+            <div class="searchbar">
+                <form class="search" method="get" action="">
+                    <p>
+                        <input type="hidden" name="action" value="fullsearch">
+                        <input type="hidden" name="context" value="180">
+                        <label for="search">Search:</label>
+                        <input id="search" type="text" name="value" value="">
+                        <input id="titlesearch" name="titlesearch" type="submit" value="Titles">
+                        <input id="fullsearch" name="fullsearch" type="submit" value="Text">
+                    </p>
+                </form>
+                <div class="userbar">
+                    <ul id="username">
+                        <li><a class="nonexistent" href="/tim" id="userhome" title="tim @ Self">tim</a></li>
+                        <li><a href="/Home?action=userprefs" id="userprefs" rel="nofollow">Settings</a></li>
+                        <li><a href="/Home?action=logout&amp;logout=logout" id="logout" rel="nofollow">Logout</a></li>
+                    </ul>
+                </div> <!-- end userbar -->
+            </div> <!-- end searchbar -->
+        </div> <!-- end logobar -->
+        <div class="menu-container">
+            <span class="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class='active'><a class="active" href="#">Wiki</a></li>
+                    <li><a href="#">Meetup</a></li>
+                    <li><a href="#">Files</a></li>
+                </ul>
+            </span>
+        </div>
+        <ul class="gotobar">
+            <li class="wikilink"><a href="/RecentChanges">RecentChanges</a></li>
+            <li class="wikilink"><a href="/FindPage">FindPage</a></li>
+            <li class="wikilink"><a href="/HelpContents">HelpContents</a></li>
+            <li class="clear"></li>
+        </ul>
+        <div class="editbar">
+            <a class="edit" href="/Home?action=edit" name="texteditlink">Edit</a>
+            <span class="toggleCommentsButton" style="display:none;">
+                <a href="#" class="nbcomment" onClick="toggleComments();return false;">Comments</a>
+            </span>
+            <a class="history" href="/Home?action=info">History</a>
+            <a class="nbquicklink" href="/Home?action=quicklink" rel="nofollow">Add Link</a>
+            <a class="attachments" href="/Home?action=AttachFile">Attachments</a> 
+            <form class="actionsmenu" method="GET" action="/Home">
+                <div>
+                    <label>More Actions:</label>
+                    <select name="action"
+                        onchange="if ((this.selectedIndex != 0) &&
+                        (this.options[this.selectedIndex].disabled == false)) {
+                            this.form.submit();
+                        }
+                        this.selectedIndex = 0;">
+
+                        <option value="raw">Raw Text</option>
+                        <option value="print">Print View</option>
+                        <option value="RenderAsDocbook">Render as Docbook</option>
+                        <option value="refresh">Delete Cache</option>
+                        <option value="show" disabled class="disabled"></option>
+                        <option value="SpellCheck">Check Spelling</option>
+                        <option value="LikePages">Like Pages</option>
+                        <option value="LocalSiteMap">Local Site Map</option>
+                        <option value="show" disabled class="disabled"></option>
+                        <option value="RenamePage">Rename Page</option>
+                        <option value="DeletePage">Delete Page</option>
+                        <option value="show" disabled class="disabled"></option>
+                        <option value="SubscribeUser">Subscribe User</option>
+                        <option value="show" disabled class="disabled"></option>
+                        <option value="Despam">Remove Spam</option>
+                        <option value="revert">Revert to this revision</option>
+                        <option value="PackagePages">Package Pages</option>
+                        <option value="SyncPages">Sync Pages</option>
+                        <option value="show" disabled class="disabled"></option>
+                        <option value="Load">Load</option>
+                        <option value="Save">Save</option>
+                        <option value="SlideShow">SlideShow</option>
+                    </select>
+                    <input type="submit" value="Do">
+                </div>
+                <script type="text/javascript">
+                    <!--// Init menu
+                    actionsMenuInit('More Actions:');
+                    //-->
+                </script>
+                <input type="hidden" name="subpages_checked" value="1">
+            </form>
+        </div> <!-- end editbar -->
+        <h1>
+            <span id="pagelocation">
+                <a class="backlink" href="/Home?action=fullsearch&amp;value=linkto%3A%22Home%22&amp;context=180" rel="nofollow" title="Click to do a full-text search for this title">Home</a>
+            </span>
+        </h1>
+        <ul id="pagetrail">
+            <li><a href="/SideBar">SideBar</a></li>
+            <li><a href="/LanguageSetup">LanguageSetup</a></li>
+            <li><a href="/Home">Home</a></li>
+        </ul>
+    </div> <!-- end header -->
+    <style media="all" type="text/css"> #pagelocation-print { display: none; } </style>
+    <style media="print" type="text/css"> #pagelocation-print { display: block; } </style>
+    <h1 id="pagelocation-print">Home</h1>
+    <div class="wrapper">
+        <div class="sidebar">
+            <div dir="ltr" id="SideBar.sidebar" lang="en">
+                <span class="anchor" id="SideBar.top"></span>
+                <span class="anchor" id="SideBar.line-1"></span>
+                <p class="line874">
+                * Happy Time
+                <span class="anchor" id="SideBar.line-2"></span>
+                * Crabapples
+                <span class="anchor" id="SideBar.line-3"></span>
+                <span class="anchor" id="SideBar.bottom"></span>
+            </div>
+            <div id="sidebar-end">
+            </div>
+        </div> <!-- end sidebar -->
+        <div class="content" lang="en" dir="ltr">
+            <!--[if lt IE 7]><div class='outdated-ie'><p><b>Attention! </b>You are using an outdated version of Internet Explorer which is not supported by this site. Please update your browser.</p></div><![endif]-->
+            <div dir="ltr" id="content" lang="en">
+                <span class="anchor" id="top"></span>
+                <span class="anchor" id="line-1"></span>
+                <p class="line874">
+                This is the home page
+                <span class="anchor" id="line-2"></span>
+                <span class="anchor" id="bottom"></span>
+            </div> <!-- end content id -->
+            <div id="pagebottom">
+            </div>
+        </div><!-- end content class -->
+    </div>
+    <div class="footer">
+        <span id="custom-footer">
+            <a href="http://moinmo.in/ThemeMarket/Solenoid">Pysprings Theme Powered</a>
+            &nbsp;|&nbsp;
+            <a href="http://moinmo.in/" title="This site uses the MoinMoin Wiki software.">MoinMoin Powered</a>
+            &nbsp;|&nbsp;
+            <a href="http://moinmo.in/Python" title="MoinMoin is written in Python.">Python Powered</a>
+            &nbsp;|&nbsp;
+            <a href="http://moinmo.in/GPL" title="MoinMoin is GPL licensed.">GPL licensed</a>
+            &nbsp;|&nbsp;
+            <a href="http://validator.w3.org/check?uri=referer" title="Click here to validate this page.">Valid HTML 4.01</a>
+        </span>
+        <span class="time" lang="en" dir="ltr">last edited 2013-02-27 07:00:09 by
+            <span title="tim @ localhost[127.0.0.1]">
+                <a class="nonexistent" href="/tim" title="tim @ localhost[127.0.0.1]">tim</a>
+            </span>
+        </span>
+    </div>
+    </body>
+</html>
+
