@@ -3,7 +3,7 @@
 
 AUTHOR = u'PySprings'
 SITENAME = u'PySprings'
-SITEURL = 'http://stg.pysprings.org'
+SITEURL = 'http://pysprings.org'
 
 THEME = 'pysprings-theme/'
 
