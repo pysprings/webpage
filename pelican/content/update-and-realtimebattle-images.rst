@@ -39,13 +39,13 @@ and also have sha256 checksums.
 
 32 bit image
 ============
- * `i386 iso <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-i386.iso>`_
- * `sha256 checksum <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-CHECKSUM>`_
- * `i386 iso gpg signature <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-i386.iso.asc>`_
+ * `i386 iso <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-i386.iso>`_
+ * `sha256 checksum <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-CHECKSUM>`_
+ * `i386 iso gpg signature <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-i386.iso.asc>`_
 
 64 bit image
 ============
- * `x86_64 iso <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-x86_64.iso>`_
- * `sha256 checksum <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-CHECKSUM>`_
- * `x86_64 iso gpg signature <https://pysprings.org/images/livecd-pysprings-rtblive-19.2-x86_64.iso.asc>`_
+ * `x86_64 iso <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-x86_64.iso>`_
+ * `sha256 checksum <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-CHECKSUM>`_
+ * `x86_64 iso gpg signature <https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-x86_64.iso.asc>`_
 
