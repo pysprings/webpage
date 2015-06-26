@@ -3,7 +3,9 @@
 
 AUTHOR = u'PySprings'
 SITENAME = u'PySprings'
-SITEURL = 'http://pysprings.org'
+SITEURL = ''
+#SITEURL = 'https://pysprings.org'
+#SITEURL = 'https://stg.pysprings.org'
 
 THEME = 'pysprings-theme/'
 
@@ -28,6 +30,6 @@ SOCIAL = (('https://github.com/pysprings', 'github'),
 
 SPONSORS = (('Meeting Space Provided By:', 'http://enclavecoop.com/', 'enclave'),)
 
-DISQUS_SITENAME = 'pysprings'
+#DISQUS_SITENAME = 'pysprings'
 
 DEFAULT_PAGINATION = 3
