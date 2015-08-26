@@ -5,7 +5,7 @@ import sys
 sys.path.append('.')
 from pelicanconf import *
 
-SITEURL = 'http://pysprings.org'
+SITEURL = 'https://pysprings.org'
 
 DISQUS_SITENAME = 'pysprings'
 
