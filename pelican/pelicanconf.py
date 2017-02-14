@@ -7,7 +7,7 @@ SITEURL = ''
 #SITEURL = 'https://pysprings.org'
 #SITEURL = 'https://stg.pysprings.org'
 
-THEME = 'pysprings-theme/'
+THEME = 'pysprings-theme'
 
 TIMEZONE = 'America/Denver'
 
