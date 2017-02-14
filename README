@@ -1,20 +1,20 @@
 PySprings Website
-========================================
+=================
 
-This is a pretty early draft of the PySprings website. It's generated using
-pelican (http://docs.getpelican.com/)
+This is the PySprings website.  It's generated using pelican_ and a few tools
+for doing CSS.
 
 
 Building the static HTML using pelican
 --------------------------------------
 
 To build the site, create a virtualenv and install pelican
-  $ virtualenv --distribute env_pelican
+  $ virtualenv env_pelican
   $ source env_pelican/bin/activate
   $ pip install pelican
 
-Once pelican is installed in the virtualenv, you can build the site from the 
-<gitroot>/pelican/ directory:
+Once pelican is installed in the virtualenv, you can build the site from the `pelican/` directory:
+  $ cd pelican
   $ make html
 
 Generating CSS from SCSS
@@ -35,3 +35,5 @@ already. Once you have everything installed, go to the site-css dir and run
 
 If you're making lots of css changes, you'll want to have compass watch for changes
   $ compass watch
+
+.. _pelican: http://docs.getpelican.com/
