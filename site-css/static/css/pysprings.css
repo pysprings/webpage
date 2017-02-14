@@ -1,8 +1,8 @@
 /* Artfully masterminded by ZURB  */
 /* line 6, ../../sass/pysprings.scss */
 .pysprings-preheader {
-  -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   position: relative;
   background-color: white;
