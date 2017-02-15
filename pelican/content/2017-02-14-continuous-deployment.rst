@@ -4,7 +4,7 @@ Using Continuous Deployment for the PySprings Website
 :author: Ryan
 :tags: meetup news
 
-This is the firest blog post that we've made through the web interface at github.
+This is the first blog post that we've made through the web interface at github.
 It's using Travis CI to make the HTML from the blog each and every time.
 
 The issues we have to work through are mostly related to CSS.
