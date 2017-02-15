@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PySprings - misc</title><link href="https://pysprings.github.io/webpage/" rel="alternate"></link><link href="https://pysprings.github.io/webpage/feeds/misc.atom.xml" rel="self"></link><id>https://pysprings.github.io/webpage/</id><updated>2017-02-14T00:00:00-07:00</updated><entry><title>Using Continuous Deployment for the PySprings Website</title><link href="https://pysprings.github.io/webpage/using-continuous-deployment-for-the-pysprings-website.html" rel="alternate"></link><published>2017-02-14T00:00:00-07:00</published><updated>2017-02-14T00:00:00-07:00</updated><author><name>Ryan</name></author><id>tag:pysprings.github.io,2017-02-14:/webpage/using-continuous-deployment-for-the-pysprings-website.html</id><summary type="html">&lt;p&gt;This is the first blog post that we've made through the web interface at github.
+It's using Travis CI to make the HTML from the blog each and every time.&lt;/p&gt;
+&lt;p&gt;The issues we have to work through are mostly related to CSS.
+I (Ryan) want to use pure sass and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the first blog post that we've made through the web interface at github.
+It's using Travis CI to make the HTML from the blog each and every time.&lt;/p&gt;
+&lt;p&gt;The issues we have to work through are mostly related to CSS.
+I (Ryan) want to use pure sass and some really small frameworks like pocketgrid and Pure CSS.&lt;/p&gt;
+</content><category term="meetup news"></category></entry><entry><title>Still Alive and Looking Forward to Change</title><link href="https://pysprings.github.io/webpage/still-alive-and-looking-forward-to-change.html" rel="alternate"></link><published>2016-02-25T17:00:00-07:00</published><updated>2016-02-25T17:00:00-07:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2016-02-25:/webpage/still-alive-and-looking-forward-to-change.html</id><summary type="html">&lt;p&gt;We are very much still an active group &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;on meetup&lt;/a&gt;
+despite the apparent lack of activity and a test-obsessed AI.&lt;/p&gt;
+&lt;p&gt;In fact, &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/229079862/"&gt;one of our next meetups&lt;/a&gt;
+will be about ideas and work toward reworking and updating this site so that
+it's used more. If you have ideas (and hopefully …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We are very much still an active group &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;on meetup&lt;/a&gt;
+despite the apparent lack of activity and a test-obsessed AI.&lt;/p&gt;
+&lt;p&gt;In fact, &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/229079862/"&gt;one of our next meetups&lt;/a&gt;
+will be about ideas and work toward reworking and updating this site so that
+it's used more. If you have ideas (and hopefully some time to help), please
+join us on March 22!&lt;/p&gt;
+</content><category term="meetup news"></category></entry><entry><title>Best Snickerdoodles</title><link href="https://pysprings.github.io/webpage/best-snickerdoodles.html" rel="alternate"></link><published>2015-08-25T08:00:00-06:00</published><updated>2015-08-25T08:00:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2015-08-25:/webpage/best-snickerdoodles.html</id><summary type="html">&lt;p&gt;Tonight's meetup was about using &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/224574554/"&gt;&amp;quot;Mob Programming&amp;quot; to find &amp;quot;the best snickerdoodle
+recipe&amp;quot;&lt;/a&gt; and we spent the
+time trying to find a way to use APIs and scraping to determine a &amp;quot;best&amp;quot; recipe.&lt;/p&gt;
+&lt;p&gt;After some early questions like &amp;quot;what is a snickerdoodle&amp;quot;, &amp;quot;are we looking to
+make cookies or look …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Tonight's meetup was about using &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/224574554/"&gt;&amp;quot;Mob Programming&amp;quot; to find &amp;quot;the best snickerdoodle
+recipe&amp;quot;&lt;/a&gt; and we spent the
+time trying to find a way to use APIs and scraping to determine a &amp;quot;best&amp;quot; recipe.&lt;/p&gt;
+&lt;p&gt;After some early questions like &amp;quot;what is a snickerdoodle&amp;quot;, &amp;quot;are we looking to
+make cookies or look for a way to have them delivered&amp;quot;, one of the big questions
+ended up being &amp;quot;what makes a recipe the best?&amp;quot;. After discussing metrics like
+highest calorie count or most butter and sugar, we ended up attempting to make
+an amalgamated combination recipe - which was interesting but didn't yield a
+great result once we realized that the instructions couldn't be averaged and
+combined in the same way.&lt;/p&gt;
+&lt;p&gt;The second approach we took is to find an API with fewer details but a method
+for ranking the complete recipes. This solved the issue of combining instructions with
+ingredients and even though it was a less sophisticated solution, it did return
+more complete information.&lt;/p&gt;
+&lt;p&gt;Overall, there was a lot of learning and much fun was had by all! Thanks to
+Ryan for leading the session.&lt;/p&gt;
+&lt;p&gt;The ipython notebooks and code that we came up with are available at:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://github.com/pysprings/recipe-finding"&gt;https://github.com/pysprings/recipe-finding&lt;/a&gt;&lt;/p&gt;
+</content><category term="meetup summary"></category></entry><entry><title>Robots and Challenges</title><link href="https://pysprings.github.io/webpage/robots-and-challenges.html" rel="alternate"></link><published>2015-06-24T08:00:00-06:00</published><updated>2015-06-24T08:00:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2015-06-24:/webpage/robots-and-challenges.html</id><summary type="html">&lt;p&gt;Despite the lack of updates here, we have been meeting regularly on the second
+and fourth Tuesdays of the month. Check out &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;the meetup group&lt;/a&gt; for details on what we currently have
+planned.&lt;/p&gt;
+&lt;p&gt;Recently, we've been working on what we're calling the &lt;a class="reference external" href="https://pysprings.org/wiki/PySpringsGrandChallenge"&gt;PySprings Grand
+Challenge&lt;/a&gt; (working title,
+we still need …&lt;/p&gt;</summary><content type="html">&lt;p&gt;Despite the lack of updates here, we have been meeting regularly on the second
+and fourth Tuesdays of the month. Check out &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;the meetup group&lt;/a&gt; for details on what we currently have
+planned.&lt;/p&gt;
+&lt;p&gt;Recently, we've been working on what we're calling the &lt;a class="reference external" href="https://pysprings.org/wiki/PySpringsGrandChallenge"&gt;PySprings Grand
+Challenge&lt;/a&gt; (working title,
+we still need to find a better name) in collaboration with the &lt;a class="reference external" href="http://www.meetup.com/pikespeakmakerspace/"&gt;Pikes Peak
+Makerspace&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="what-is-the-challenge"&gt;
+&lt;h2&gt;What is the Challenge?&lt;/h2&gt;
+&lt;p&gt;We're still working out some of the details but the original inspiration was to
+do something similar to the &lt;a class="reference external" href="https://en.wikipedia.org/wiki/DARPA_Grand_Challenge"&gt;DARPA Grand Challenge&lt;/a&gt; but simple enough and
+cheap enough that more regular folks could participate.&lt;/p&gt;
+&lt;p&gt;The parts we have decided on are:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Robots will be involved&lt;/li&gt;
+&lt;li&gt;The robots will be autonomous&lt;/li&gt;
+&lt;li&gt;Robot &amp;quot;brains&amp;quot; will be programmable in Python (we &lt;strong&gt;might&lt;/strong&gt; allow other
+languages too)&lt;/li&gt;
+&lt;li&gt;The competition will eventually take place in the Mars room at the &lt;a class="reference external" href="http://www.spacefoundation.org/about/locations/world-headquarters-and-space-foundation-discovery-center"&gt;Space
+Foundation's world headquarters&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;We're still figuring out a lot of the details but plan to have a limited (both
+in scope and participants) competition in October, 2015.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-s-this-mars-room"&gt;
+&lt;h2&gt;What's this Mars room?&lt;/h2&gt;
+&lt;p&gt;The mars room is an area of the Space Foundation's museum that has been
+built to be a simulation of Mars and they currently use it for some robotics
+programs.&lt;/p&gt;
+&lt;img alt="first picture of mars room" class="align-center" src="https://pysprings.github.io/webpage/images/20150616-marsroom/marsroom1_scaled.jpg" /&gt;
+&lt;img alt="second picture of mars room" class="align-center" src="https://pysprings.github.io/webpage/images/20150616-marsroom/marsroom2_scaled.jpg" /&gt;
+&lt;img alt="third picture of mars room" class="align-center" src="https://pysprings.github.io/webpage/images/20150616-marsroom/marsroom3_scaled.jpg" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="robots-and-mars-how-can-i-get-involved"&gt;
+&lt;h2&gt;Robots and Mars?! How can I get involved?&lt;/h2&gt;
+&lt;p&gt;Honestly, show up for one of the meetings (I use the term meeting loosely to
+mean &amp;quot;folks gathering to get things done&amp;quot;)! If you'd rather not wait, feel free
+to ask questions on &lt;a class="reference external" href="http://pysprings.org/mailman/listinfo/members"&gt;the mailing list&lt;/a&gt;, IRC (#pysprings on Freenode),
+direct email or meetup.&lt;/p&gt;
+&lt;p&gt;Future meetings will be scheduled on either the &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;PySprings&lt;/a&gt; or
+&lt;a class="reference external" href="http://www.meetup.com/pikespeakmakerspace/"&gt;Pikes Peak Makerspace&lt;/a&gt; meetup pages.&lt;/p&gt;
+&lt;p&gt;There's plenty of stuff yet to do so don't be shy if you are interested!&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="news"></category></entry><entry><title>Realtimebattle Tournament</title><link href="https://pysprings.github.io/webpage/realtimebattle-tournament.html" rel="alternate"></link><published>2013-09-30T08:00:00-06:00</published><updated>2013-09-30T08:00:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2013-09-30:/webpage/realtimebattle-tournament.html</id><summary type="html">&lt;p&gt;We've been talking about this for a while now, but we've decided to run a
+realtimebattle tournament this month.&lt;/p&gt;
+&lt;p&gt;There are no real restrictions on collaboration or code size but it will need
+to run on python 2.7 with minimal external libraries. If it runs on the live image …&lt;/p&gt;</summary><content type="html">&lt;p&gt;We've been talking about this for a while now, but we've decided to run a
+realtimebattle tournament this month.&lt;/p&gt;
+&lt;p&gt;There are no real restrictions on collaboration or code size but it will need
+to run on python 2.7 with minimal external libraries. If it runs on the live image,
+it will run on the &amp;quot;tournament setup&amp;quot;.&lt;/p&gt;
+&lt;p&gt;The tournament will be a &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Round-robin_tournament"&gt;round-robin style tournament&lt;/a&gt;
+with the winner determined from overall wins (5 matches with each opponent).&lt;/p&gt;
+&lt;p&gt;Tanks will be due on or before 23:59 on October 20, 2013. The results will be
+presented at a to-be-scheduled meetup on Saturday, October 26 2013. To submit a
+tank, email your code to pysprings at pysprings dot org. In addition to the code,
+please include the following information:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Tank name&lt;/li&gt;
+&lt;li&gt;Your name(s) as you want it/them to appear in the results&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Please direct questions to the list - if you have a question, odds are good that
+someone else will have the same question.&lt;/p&gt;
+&lt;p&gt;Good luck!&lt;/p&gt;
+</content><category term="news"></category></entry><entry><title>Update and RealTimeBattle</title><link href="https://pysprings.github.io/webpage/update-and-realtimebattle.html" rel="alternate"></link><published>2013-09-10T17:00:00-06:00</published><updated>2013-09-10T17:00:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2013-09-10:/webpage/update-and-realtimebattle.html</id><summary type="html">&lt;p&gt;We've not been great about updating this but the group is still very much alive
+and meeting twice a month. We keep seeing new faces and gaining new regulars,
+which is awesome.&lt;/p&gt;
+&lt;p&gt;One of the things we've been working on as of late is working with a program
+called &lt;a class="reference external" href="http://realtimebattle.sourceforge.net/"&gt;RealTimeBattle …&lt;/a&gt;&lt;/p&gt;</summary><content type="html">&lt;p&gt;We've not been great about updating this but the group is still very much alive
+and meeting twice a month. We keep seeing new faces and gaining new regulars,
+which is awesome.&lt;/p&gt;
+&lt;p&gt;One of the things we've been working on as of late is working with a program
+called &lt;a class="reference external" href="http://realtimebattle.sourceforge.net/"&gt;RealTimeBattle&lt;/a&gt; which is a
+simulator where you have &amp;quot;tanks&amp;quot; controlled by programs which battle eachother
+on virtual battle fields. One of the cool things about RealTimeBattle is that
+it isn't just Python - anything that can read from stdout and write to stdin
+can be used to control a tank.&lt;/p&gt;
+&lt;p&gt;Eventually, we're hoping to have a tournament between submitted tanks but we're
+still working out good ways to control the tanks.&lt;/p&gt;
+&lt;p&gt;One of the problems we've hit is that RealTimeBattle is relatively inactive and
+unless you're running a Debian derivative (&lt;a class="reference external" href="http://packages.debian.org/unstable/main/realtimebattle"&gt;there is a Debian package available&lt;/a&gt;) it's not trivial to
+build or install.&lt;/p&gt;
+&lt;p&gt;To help make this process easier, I've made a &lt;a class="reference external" href="http://en.wikipedia.org/wiki/Live_CD"&gt;live image&lt;/a&gt;
+that already has RealTimeBattle, some editors and python utilities pre-installed.
+These images are based on &lt;a class="reference external" href="http://fedoraproject.org/"&gt;Fedora 19&lt;/a&gt; and use the
+&lt;a class="reference external" href="http://www.xfce.org/"&gt;XFCE&lt;/a&gt; desktop environment. All you have to do is download
+the image and either run it in a virtual machine or &lt;a class="reference external" href="http://fedoraproject.org/wiki/How_to_create_and_use_Live_USB"&gt;prepare it to boot on your
+computer&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;These images are very much a work in progress and feedback would be very much
+appreciated. The only way these images will get better is through testing and
+finding out if anything is missing!&lt;/p&gt;
+&lt;p&gt;The signatures are all done with &lt;a class="reference external" href="http://pgp.mit.edu:11371/pks/lookup?op=get&amp;amp;search=0xA1FF95F89D9C6F26"&gt;my GPG key&lt;/a&gt;
+and also have sha256 checksums.&lt;/p&gt;
+&lt;div class="section" id="bit-image"&gt;
+&lt;h2&gt;32 bit image&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-i386.iso"&gt;i386 iso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-CHECKSUM"&gt;sha256 checksum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-i386.iso.asc"&gt;i386 iso gpg signature&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;64 bit image&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-x86_64.iso"&gt;x86_64 iso&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-CHECKSUM"&gt;sha256 checksum&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://pysprings.org/rtblive/livecd-pysprings-rtblive-19.2-x86_64.iso.asc"&gt;x86_64 iso gpg signature&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/div&gt;
+</content><category term="news"></category></entry><entry><title>New Web Site</title><link href="https://pysprings.github.io/webpage/new-web-site.html" rel="alternate"></link><published>2013-03-28T21:00:00-06:00</published><updated>2013-03-28T21:00:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2013-03-28:/webpage/new-web-site.html</id><summary type="html">&lt;p&gt;As some of you may be noticing - we have a new web site! Ryan and I have been
+working on the initial &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt; site for a while
+now and it's finally deployed!&lt;/p&gt;
+&lt;p&gt;What you see here is a first step, though and there are always things we could
+add or …&lt;/p&gt;</summary><content type="html">&lt;p&gt;As some of you may be noticing - we have a new web site! Ryan and I have been
+working on the initial &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt; site for a while
+now and it's finally deployed!&lt;/p&gt;
+&lt;p&gt;What you see here is a first step, though and there are always things we could
+add or improve. If you have ideas, feel free to bring them up - we have our own
+VPS now and outside of system resources, there isn't much we couldn't do if someone
+wanted to get it done. Suggestions are welcome and patches are even more welcome.&lt;/p&gt;
+&lt;p&gt;Some of the next steps are going to be:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Theming the wiki&lt;/li&gt;
+&lt;li&gt;Using OpenID or Persona for wiki auth instead of locally stored auth&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I'm excited about the new site - the plan is to have everything from the blog
+posts and css to the configuration management tools available publicly, so expect
+more posts and probably some presentations about it in the near future.&lt;/p&gt;
+&lt;p&gt;If you're interested in poking at the main site, it is &lt;a class="reference external" href="https://bitbucket.org/tflink/pysprings-website"&gt;available on on bitbucket&lt;/a&gt;. Patches and collaboration
+are very much encouraged - if you have questions, feel free to ask them on the
+&lt;a class="reference external" href="http://pysprings.org/mailman/listinfo/members"&gt;mailing list&lt;/a&gt;. I may move
+everything to github once the site stabilizes but for now, it'll stay on bitbucket.&lt;/p&gt;
+</content><category term="news"></category></entry><entry><title>Meetup Site</title><link href="https://pysprings.github.io/webpage/meetup-site.html" rel="alternate"></link><published>2012-12-04T03:21:00-07:00</published><updated>2012-12-04T03:21:00-07:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2012-12-04:/webpage/meetup-site.html</id><summary type="html">&lt;p&gt;After completely forgetting to schedule either of the meetings last
+month, we figured that it was time to stop resisting and set up a meetup
+site for PySprings:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://meetup.pysprings.org"&gt;http://meetup.pysprings.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've &lt;a class="reference external" href="http://meetup.pysprings.org/events/93662732/"&gt;scheduled the next meeting for 2012-12-11&lt;/a&gt; about &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;pelican&lt;/a&gt; - a
+static site generator written in Python.&lt;/p&gt;
+&lt;p&gt;Apologies for …&lt;/p&gt;</summary><content type="html">&lt;p&gt;After completely forgetting to schedule either of the meetings last
+month, we figured that it was time to stop resisting and set up a meetup
+site for PySprings:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://meetup.pysprings.org"&gt;http://meetup.pysprings.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've &lt;a class="reference external" href="http://meetup.pysprings.org/events/93662732/"&gt;scheduled the next meeting for 2012-12-11&lt;/a&gt; about &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;pelican&lt;/a&gt; - a
+static site generator written in Python.&lt;/p&gt;
+&lt;p&gt;Apologies for the lack of communication recently. Both Ryan and I have
+been busier than we'd like over the last month :(&lt;/p&gt;
+</content><category term="news"></category></entry><entry><title>October Meeting</title><link href="https://pysprings.github.io/webpage/october-meeting.html" rel="alternate"></link><published>2012-10-22T06:30:00-06:00</published><updated>2012-10-22T06:30:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2012-10-22:/webpage/october-meeting.html</id><summary type="html">&lt;p&gt;The next PySprings meeting will be on Tuesday, October 23 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Keeping with the Flask/web theme, Ryan will be giving a talk on
+&lt;a class="reference external" href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; usage including inheritance, control structures, filters,
+macros and whatever else we have time for.&lt;/p&gt;
+&lt;p&gt;Example code …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The next PySprings meeting will be on Tuesday, October 23 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Keeping with the Flask/web theme, Ryan will be giving a talk on
+&lt;a class="reference external" href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; usage including inheritance, control structures, filters,
+macros and whatever else we have time for.&lt;/p&gt;
+&lt;p&gt;Example code will be provided before the meeting but it would probably
+be best to have Flask 0.9 installed ahead of time.&lt;/p&gt;
+&lt;p&gt;If you're planning to show up, please RSVP to me or &lt;a class="reference external" href="http://pysprings.org/mailman/listinfo/list_pysprings.org"&gt;the list&lt;/a&gt; so that
+I can make sure to have an appropriate amount of food.&lt;/p&gt;
+</content><category term="meetings"></category></entry><entry><title>August Meeting</title><link href="https://pysprings.github.io/webpage/august-meeting.html" rel="alternate"></link><published>2012-08-24T17:32:00-06:00</published><updated>2012-08-24T17:32:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2012-08-24:/webpage/august-meeting.html</id><summary type="html">&lt;p&gt;The next PySprings meeting will be on Tuesday, August 28 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs. I'm planning to do a discussion about
+&lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; - please bring a laptop as there will be code to work through during
+the discussion. I'm trying not to make this a …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The next PySprings meeting will be on Tuesday, August 28 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs. I'm planning to do a discussion about
+&lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; - please bring a laptop as there will be code to work through during
+the discussion. I'm trying not to make this a &amp;quot;Tim sits up there and talks for
+an hour and a half&amp;quot; type of discussion.&lt;/p&gt;
+&lt;p&gt;Since we had so many environment setup issues last time, I'm planning to have
+environments and livecds ready for people who don't already have python set up.
+If you think that you'd like to use a pre-set environment, please let me know -
+the hardware I have can support 8 at the absolute most.&lt;/p&gt;
+&lt;p&gt;Things you'll need setup on your laptop (let us know if you want help setting
+things up):&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Virtualenv&lt;/li&gt;
+&lt;li&gt;Flask 0.9&lt;/li&gt;
+&lt;li&gt;Some sort of text editor (not notepad or wordpad)&lt;/li&gt;
+&lt;li&gt;Python 2.6 or 2.7&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;If you're planning to show up, please RSVP to me or &lt;a class="reference external" href="http://pysprings.org/mailman/listinfo/list_pysprings.org"&gt;the list&lt;/a&gt; so that I can
+make sure to have an appropriate amount of food.&lt;/p&gt;
+</content><category term="meetings"></category></entry><entry><title>Progress and Goings On</title><link href="https://pysprings.github.io/webpage/progress-and-goings-on.html" rel="alternate"></link><published>2012-08-15T05:06:00-06:00</published><updated>2012-08-15T05:06:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2012-08-15:/webpage/progress-and-goings-on.html</id><summary type="html">&lt;p&gt;I got an email last week asking if the group was still alive and I
+realized that I had been a little complacent about updating the web
+site.&lt;/p&gt;
+&lt;p&gt;We didn't end up having a meeting last month, doing a project night
+instead. We're still trying to figure out something new …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I got an email last week asking if the group was still alive and I
+realized that I had been a little complacent about updating the web
+site.&lt;/p&gt;
+&lt;p&gt;We didn't end up having a meeting last month, doing a project night
+instead. We're still trying to figure out something new for the website,
+but progress has been slow. We first started looking into using
+&lt;a class="reference external" href="https://github.com/laoqiu/pypress/"&gt;pypress&lt;/a&gt; (not the new tornado based fork) but since there seem to be
+issues when using the Flask-Theme extension with Flask &amp;gt;= 0.8, it seems
+less likely that we'll use it.&lt;/p&gt;
+&lt;p&gt;We had another project night today, with an emphasis on looking into
+static site generators. Instead of repeating everything here, I'm going
+to be lazy and just link to &lt;a class="reference external" href="http://pysprings.org/pipermail/list_pysprings.org/2012-August/000010.html"&gt;the email I sent out earlier&lt;/a&gt; :)&lt;/p&gt;
+&lt;p&gt;We're planning to have a regular meeting in two weeks on Tuesday, August
+28th. I'm not sure what the topic is going to be yet but will be make
+another announcement once we get that figured out.&lt;/p&gt;
+</content><category term="news"></category></entry><entry><title>First Meeting</title><link href="https://pysprings.github.io/webpage/first-meeting.html" rel="alternate"></link><published>2012-06-15T18:18:00-06:00</published><updated>2012-06-15T18:18:00-06:00</updated><author><name>tim</name></author><id>tag:pysprings.github.io,2012-06-15:/webpage/first-meeting.html</id><summary type="html">&lt;p&gt;The first PySprings meeting will be on June 26, 2012 from 7:00 to 9:00
+pm at &lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Since this will be the first meeting, we'll spend some of the time
+talking about what people's interests are and what times might work
+better.&lt;/p&gt;
+&lt;p&gt;If you've …&lt;/p&gt;</summary><content type="html">&lt;p&gt;The first PySprings meeting will be on June 26, 2012 from 7:00 to 9:00
+pm at &lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Since this will be the first meeting, we'll spend some of the time
+talking about what people's interests are and what times might work
+better.&lt;/p&gt;
+&lt;p&gt;If you've never used Python before, don't worry! Ryan and I will be
+showing up at 6:30 to help anyone install Python and we're planning to
+spend the first 45 minutes talking about Python tools and Basics. We
+have several options for the rest of the time and will go with whatever
+the group decides to do.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Introduction to &lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Introduction to &lt;a class="reference external" href="http://www.pygame.org"&gt;PyGame&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Exercises from &lt;a class="reference external" href="http://learnpythonthehardway.org/"&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;We will have food, door prizes and a little bit of Python swag.&lt;/p&gt;
+&lt;p&gt;If you are planning to show up, please let Ryan or I know by sending an
+email to pysprings at pysprings dot org, via twitter (&amp;#64;pysprings) or in
+person so that we know how much food to get.&lt;/p&gt;
+&lt;p&gt;If you can't make it but want to go, let us know what time would be
+better for you. We can't promise to change the time of future meetings
+but we do want to make the meetings as accessible as we can.&lt;/p&gt;
+</content><category term="meetings"></category></entry></feed>

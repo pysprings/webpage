@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>PySprings - Ryan</title><link href="https://pysprings.github.io/webpage/" rel="alternate"></link><link href="https://pysprings.github.io/webpage/feeds/ryan.atom.xml" rel="self"></link><id>https://pysprings.github.io/webpage/</id><updated>2017-02-14T00:00:00-07:00</updated><entry><title>Using Continuous Deployment for the PySprings Website</title><link href="https://pysprings.github.io/webpage/using-continuous-deployment-for-the-pysprings-website.html" rel="alternate"></link><published>2017-02-14T00:00:00-07:00</published><updated>2017-02-14T00:00:00-07:00</updated><author><name>Ryan</name></author><id>tag:pysprings.github.io,2017-02-14:/webpage/using-continuous-deployment-for-the-pysprings-website.html</id><summary type="html">&lt;p&gt;This is the first blog post that we've made through the web interface at github.
+It's using Travis CI to make the HTML from the blog each and every time.&lt;/p&gt;
+&lt;p&gt;The issues we have to work through are mostly related to CSS.
+I (Ryan) want to use pure sass and …&lt;/p&gt;</summary><content type="html">&lt;p&gt;This is the first blog post that we've made through the web interface at github.
+It's using Travis CI to make the HTML from the blog each and every time.&lt;/p&gt;
+&lt;p&gt;The issues we have to work through are mostly related to CSS.
+I (Ryan) want to use pure sass and some really small frameworks like pocketgrid and Pure CSS.&lt;/p&gt;
+</content><category term="meetup news"></category></entry></feed>

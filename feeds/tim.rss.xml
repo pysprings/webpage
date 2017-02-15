@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>PySprings - tim</title><link>https://pysprings.github.io/webpage/</link><description></description><lastBuildDate>Thu, 25 Feb 2016 17:00:00 -0700</lastBuildDate><item><title>Still Alive and Looking Forward to Change</title><link>https://pysprings.github.io/webpage/still-alive-and-looking-forward-to-change.html</link><description>&lt;p&gt;We are very much still an active group &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;on meetup&lt;/a&gt;
+despite the apparent lack of activity and a test-obsessed AI.&lt;/p&gt;
+&lt;p&gt;In fact, &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/229079862/"&gt;one of our next meetups&lt;/a&gt;
+will be about ideas and work toward reworking and updating this site so that
+it's used more. If you have ideas (and hopefully …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Thu, 25 Feb 2016 17:00:00 -0700</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2016-02-25:/webpage/still-alive-and-looking-forward-to-change.html</guid><category>meetup news</category></item><item><title>Best Snickerdoodles</title><link>https://pysprings.github.io/webpage/best-snickerdoodles.html</link><description>&lt;p&gt;Tonight's meetup was about using &lt;a class="reference external" href="http://www.meetup.com/PySprings/events/224574554/"&gt;&amp;quot;Mob Programming&amp;quot; to find &amp;quot;the best snickerdoodle
+recipe&amp;quot;&lt;/a&gt; and we spent the
+time trying to find a way to use APIs and scraping to determine a &amp;quot;best&amp;quot; recipe.&lt;/p&gt;
+&lt;p&gt;After some early questions like &amp;quot;what is a snickerdoodle&amp;quot;, &amp;quot;are we looking to
+make cookies or look …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Tue, 25 Aug 2015 08:00:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2015-08-25:/webpage/best-snickerdoodles.html</guid><category>meetup summary</category></item><item><title>Robots and Challenges</title><link>https://pysprings.github.io/webpage/robots-and-challenges.html</link><description>&lt;p&gt;Despite the lack of updates here, we have been meeting regularly on the second
+and fourth Tuesdays of the month. Check out &lt;a class="reference external" href="http://www.meetup.com/PySprings/"&gt;the meetup group&lt;/a&gt; for details on what we currently have
+planned.&lt;/p&gt;
+&lt;p&gt;Recently, we've been working on what we're calling the &lt;a class="reference external" href="https://pysprings.org/wiki/PySpringsGrandChallenge"&gt;PySprings Grand
+Challenge&lt;/a&gt; (working title,
+we still need …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Wed, 24 Jun 2015 08:00:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2015-06-24:/webpage/robots-and-challenges.html</guid><category>news</category></item><item><title>Realtimebattle Tournament</title><link>https://pysprings.github.io/webpage/realtimebattle-tournament.html</link><description>&lt;p&gt;We've been talking about this for a while now, but we've decided to run a
+realtimebattle tournament this month.&lt;/p&gt;
+&lt;p&gt;There are no real restrictions on collaboration or code size but it will need
+to run on python 2.7 with minimal external libraries. If it runs on the live image …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Mon, 30 Sep 2013 08:00:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2013-09-30:/webpage/realtimebattle-tournament.html</guid><category>news</category></item><item><title>Update and RealTimeBattle</title><link>https://pysprings.github.io/webpage/update-and-realtimebattle.html</link><description>&lt;p&gt;We've not been great about updating this but the group is still very much alive
+and meeting twice a month. We keep seeing new faces and gaining new regulars,
+which is awesome.&lt;/p&gt;
+&lt;p&gt;One of the things we've been working on as of late is working with a program
+called &lt;a class="reference external" href="http://realtimebattle.sourceforge.net/"&gt;RealTimeBattle …&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Tue, 10 Sep 2013 17:00:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2013-09-10:/webpage/update-and-realtimebattle.html</guid><category>news</category></item><item><title>New Web Site</title><link>https://pysprings.github.io/webpage/new-web-site.html</link><description>&lt;p&gt;As some of you may be noticing - we have a new web site! Ryan and I have been
+working on the initial &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;Pelican&lt;/a&gt; site for a while
+now and it's finally deployed!&lt;/p&gt;
+&lt;p&gt;What you see here is a first step, though and there are always things we could
+add or …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Thu, 28 Mar 2013 21:00:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2013-03-28:/webpage/new-web-site.html</guid><category>news</category></item><item><title>Meetup Site</title><link>https://pysprings.github.io/webpage/meetup-site.html</link><description>&lt;p&gt;After completely forgetting to schedule either of the meetings last
+month, we figured that it was time to stop resisting and set up a meetup
+site for PySprings:&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://meetup.pysprings.org"&gt;http://meetup.pysprings.org&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I've &lt;a class="reference external" href="http://meetup.pysprings.org/events/93662732/"&gt;scheduled the next meeting for 2012-12-11&lt;/a&gt; about &lt;a class="reference external" href="http://docs.getpelican.com/"&gt;pelican&lt;/a&gt; - a
+static site generator written in Python.&lt;/p&gt;
+&lt;p&gt;Apologies for …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Tue, 04 Dec 2012 03:21:00 -0700</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2012-12-04:/webpage/meetup-site.html</guid><category>news</category></item><item><title>October Meeting</title><link>https://pysprings.github.io/webpage/october-meeting.html</link><description>&lt;p&gt;The next PySprings meeting will be on Tuesday, October 23 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Keeping with the Flask/web theme, Ryan will be giving a talk on
+&lt;a class="reference external" href="http://jinja.pocoo.org/docs/"&gt;Jinja2&lt;/a&gt; usage including inheritance, control structures, filters,
+macros and whatever else we have time for.&lt;/p&gt;
+&lt;p&gt;Example code …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Mon, 22 Oct 2012 06:30:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2012-10-22:/webpage/october-meeting.html</guid><category>meetings</category></item><item><title>August Meeting</title><link>https://pysprings.github.io/webpage/august-meeting.html</link><description>&lt;p&gt;The next PySprings meeting will be on Tuesday, August 28 at 6:30 pm in
+&lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs. I'm planning to do a discussion about
+&lt;a class="reference external" href="http://flask.pocoo.org/"&gt;Flask&lt;/a&gt; - please bring a laptop as there will be code to work through during
+the discussion. I'm trying not to make this a …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Fri, 24 Aug 2012 17:32:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2012-08-24:/webpage/august-meeting.html</guid><category>meetings</category></item><item><title>Progress and Goings On</title><link>https://pysprings.github.io/webpage/progress-and-goings-on.html</link><description>&lt;p&gt;I got an email last week asking if the group was still alive and I
+realized that I had been a little complacent about updating the web
+site.&lt;/p&gt;
+&lt;p&gt;We didn't end up having a meeting last month, doing a project night
+instead. We're still trying to figure out something new …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Wed, 15 Aug 2012 05:06:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2012-08-15:/webpage/progress-and-goings-on.html</guid><category>news</category></item><item><title>First Meeting</title><link>https://pysprings.github.io/webpage/first-meeting.html</link><description>&lt;p&gt;The first PySprings meeting will be on June 26, 2012 from 7:00 to 9:00
+pm at &lt;a class="reference external" href="http://enclavecoop.com/"&gt;the Enclave&lt;/a&gt; in Colorado Springs.&lt;/p&gt;
+&lt;p&gt;Since this will be the first meeting, we'll spend some of the time
+talking about what people's interests are and what times might work
+better.&lt;/p&gt;
+&lt;p&gt;If you've …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">tim</dc:creator><pubDate>Fri, 15 Jun 2012 18:18:00 -0600</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2012-06-15:/webpage/first-meeting.html</guid><category>meetings</category></item></channel></rss>

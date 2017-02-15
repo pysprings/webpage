@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>PySprings - Ryan</title><link>https://pysprings.github.io/webpage/</link><description></description><lastBuildDate>Tue, 14 Feb 2017 00:00:00 -0700</lastBuildDate><item><title>Using Continuous Deployment for the PySprings Website</title><link>https://pysprings.github.io/webpage/using-continuous-deployment-for-the-pysprings-website.html</link><description>&lt;p&gt;This is the first blog post that we've made through the web interface at github.
+It's using Travis CI to make the HTML from the blog each and every time.&lt;/p&gt;
+&lt;p&gt;The issues we have to work through are mostly related to CSS.
+I (Ryan) want to use pure sass and …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ryan</dc:creator><pubDate>Tue, 14 Feb 2017 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:pysprings.github.io,2017-02-14:/webpage/using-continuous-deployment-for-the-pysprings-website.html</guid><category>meetup news</category></item></channel></rss>
