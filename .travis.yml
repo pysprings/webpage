@@ -7,7 +7,8 @@ branches:
 install:
 - pip install -r requirements.txt
 script:
-- make -C pelican publish github
+- 'if [ "$TRAVIS_PULL_REQUEST" != "false" ]; then bash make -C pelican publish github; fi'
+- 'if [ "$TRAVIS_PULL_REQUEST" = "false" ]; then bash make -C pelican html; fi'
 env:
   global:
   - secure: WlBe7XUncWNnDFEKSvU3fUOVZXu28vvjMo+L28g0efk0nvMIEiHYxPcTCp4dTeIEral4Sc1ju3ju/BfohNr24Aue/cs1aS+6CMeOjbQF37F7/k4lpAME1FuSFx7ibosxbb/hq0KS1pRu2olAwTF2KoFXDhZK+tpDBmhhg96FrAWq1z+eYOMrtbGchTN9LNAVf/tUhjDvOjWp/6n7MC3PiV/ANW+oGumpGOXehlQk2F/el8dlCNtnB/QWL50S9vFKwfTFl62LlGgjmjsOGk3dMFkyJqJ5F7OCsXZ3ZA3hOr3AZKJp8RzP6HtN6gl9HruZ9ULWPRMUAB7upa+rcpKZoli0NyHycLFzeR7bt3NKdfIcv3LdrCSmgFk7KTztbUVDKCaf4sB6QuggxxJirkTnsudgdKauKDIVdZxX2BXwBwH/kcRe5ZmD4Oj1XLvrjepTVNvA6AyWfAihbPSTh1IjBzyPABg+K2cJtf3qw5eT7+WPaNa7jE8Dn7zs79LV3PMsLKlNn82TtvAvC3c1+lKbO6ReLmA++mRVzwlaajUzAC/STIlWcv3ro81+GJC6iHFOW40Hzs5TzkdfBfUBefm5RlYRdt98XZaDOUfbz9Ok8laG+fymImMWPlRFU+x1wDH6BvQDyeEW0lghFSf7GtD/stV0Yg099iJEP4bKZ1Etz9U=
