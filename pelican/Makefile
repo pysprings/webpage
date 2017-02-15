@@ -37,8 +37,11 @@ help:
 	@echo '                                                                       '
 
 
-html: clean $(OUTPUTDIR)/index.html
+html: $(OUTPUTDIR) clean $(OUTPUTDIR)/index.html
 	@echo 'Done'
+
+$(OUTPUTDIR):
+	mkdir $(OUTPUTDIR)
 
 $(OUTPUTDIR)/%.html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
